@@ -1,3 +1,5 @@
+'use client'
+
 import { Data, userContext } from "@/lib/context"
 import Button from "@mui/material/Button"
 import Dialog from "@mui/material/Dialog"
@@ -6,10 +8,8 @@ import Grid from "@mui/material/Grid"
 import Link from "@mui/material/Link"
 import List from "@mui/material/List"
 import ListItem from "@mui/material/ListItem"
-import ListItemAvatar from "@mui/material/ListItemAvatar"
 import ListItemButton from "@mui/material/ListItemButton"
 import ListItemText from "@mui/material/ListItemText"
-import Typography from "@mui/material/Typography"
 import { useContext, useState } from "react"
 
 export interface SimpleDialogProps {
